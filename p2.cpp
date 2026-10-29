@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 bool hasAlternatingBits(int n) {
     int prev = n % 2;
     n = n / 2;
@@ -14,7 +13,6 @@ bool hasAlternatingBits(int n) {
     }
     return true;
 }
-
 int main() {
     int n;
     cin >> n;

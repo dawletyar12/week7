@@ -4,7 +4,6 @@ using namespace std;
 int toMinutes(int h, int m) {
     return h * 60 + m;
 }
-
 int convertTime(int current, int correct) {
     int diff = correct - current;
     int ops = 0;
@@ -17,7 +16,6 @@ int convertTime(int current, int correct) {
     ops += diff;
     return ops;
 }
-
 int main() {
     int h1, m1, h2, m2;
     char colon;
